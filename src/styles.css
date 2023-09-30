@@ -1,0 +1,52 @@
+body,
+html {
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+    "Lucida Grande";
+  background: white;
+  padding: 1rem;
+  line-height: 1.6;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
+
+button {
+  position: absolute;
+  top: 75%;
+  height: 20px;
+  margin: 20px;
+  background-color: beige;
+  border-radius: 5px;
+}
+.next {
+  right: 30px;
+}
+.prev {
+  left: 30px;
+}
+
+.dog-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 60%; */
+  height: 40vh;
+  object-fit: cover;
+}
+
+.dog-text-btn {
+  display: flex;
+  text-align: center;
+}
+
+h6 {
+  width: 80%;
+  text-align: center;
+}
